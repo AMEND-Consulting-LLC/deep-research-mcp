@@ -170,7 +170,7 @@ app.delete('/mcp', async (req: Request, res: Response) => {
 });
 
 // Start the server
-const PORT = parseInt(process.env.PORT || '3000', 10);
+const PORT = 3000;
 app.listen(PORT, () => {
   log(`Deep Research MCP Stateless Streamable HTTP Server listening on port ${PORT}`);
 });

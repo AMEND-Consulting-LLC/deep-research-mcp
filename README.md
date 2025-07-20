@@ -37,21 +37,6 @@ npm run start:http
 ```
 Server runs on `http://localhost:3000/mcp` without session management.
 
-### Docker Usage
-
-You can also run the application using Docker:
-
-```bash
-# Build and run with default port (3000)
-docker-compose up --build
-
-# Run with custom port
-PORT=8080 docker-compose up --build
-```
-
-The port can be configured by setting the `PORT` environment variable in your `.env.local` file or by passing it when running docker-compose. The application will be available at `http://localhost:{PORT}/mcp`.</search>
-</search_and_replace>
-
 ## Features
 
 - Performs deep, iterative research by generating targeted search queries
